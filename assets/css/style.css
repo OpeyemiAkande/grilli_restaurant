@@ -1274,6 +1274,10 @@ body.nav-active {
   position: static;
 }
 
+.profile .img {
+  height: 100px;
+}
+
 .testi .quote {
   font-size: 7rem;
   font-family: var(--fontFamily-forum);
