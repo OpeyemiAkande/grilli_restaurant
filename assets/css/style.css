@@ -2092,6 +2092,10 @@ textarea.input-field {
     --fontSize-title-2: 2.5rem;
   }
 
+  body.nav-active {
+    overflow: scroll;
+  }
+
   /**
    * REUSED STYLE
    */
@@ -2137,7 +2141,7 @@ textarea.input-field {
 
   .navbar,
   .navbar.active {
-    margin-inline: auto 20px;
+    /* margin-inline: auto 20px; */
   }
 
   .navbar-list {
