@@ -4,54 +4,73 @@
 
 Google font
 
-``` html
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+  rel="stylesheet"
+/>
 ```
 
 Ionicon
 
-``` html
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+```html
+<script
+  type="module"
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+  nomodule
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
 ```
 
 ---
 
 ## Colors
 
-``` css
---gold-crayola: hsl(38, 61%, 73%);
---quick-silver: hsla(0, 0%, 65%, 1);
---davys-grey: hsla(30, 3%, 34%, 1);
---smoky-black-1: hsla(40, 12%, 5%, 1);
---smoky-black-2: hsla(30, 8%, 5%, 1);
---smoky-black-3: hsla(0, 3%, 7%, 1);
---eerie-black-1: hsla(210, 4%, 9%, 1);
---eerie-black-2: hsla(210, 4%, 11%, 1);
---eerie-black-3: hsla(180, 2%, 8%, 1);
---eerie-black-4: hsla(0, 0%, 13%, 1);
---white: hsla(0, 0%, 100%, 1);
---white-alpha-20: hsla(0, 0%, 100%, 0.2);
---white-alpha-10: hsla(0, 0%, 100%, 0.1);
---black: hsla(0, 0%, 0%, 1);
---black-alpha-80: hsla(0, 0%, 0%, 0.8);
---black-alpha-15: hsla(0, 0%, 0%, 0.15);
+```css
+--gold-crayola: #e4c590;
+--quick-silver: #a6a6a6;
+--davys-grey: #595754;
+--smoky-black-1: rgb(14, 13, 11);
+--smoky-black-2: #0e0d0c;
+--smoky-black-3: #121111;
+--eerie-black-1: #161718;
+--eerie-black-2: #1b1c1d;
+--eerie-black-3: #141515;
+--eerie-black-4: #212121;
+--white: #ffffff;
+--white-alpha-20: rgba(255, 255, 255, 0.2);
+--white-alpha-10: rgba(255, 255, 255, 0.1);
+--black: #000000;
+--black-alpha-80: rgba(0, 0, 0, 0.8);
+--black-alpha-15: rgba(0, 0, 0, 0.15);
 ```
 
 ## Gradient color
 
-``` css
---loading-text-gradient: linear-gradient(90deg, transparent 0% 16.66%, var(--smoky-black-3) 33.33% 50%,  transparent 66.66% 75%);
---gradient-1: linear-gradient(to top,hsla(0, 0%, 0%, 0.9),hsla(0, 0%, 0%, 0.7),transparent);
+```css
+--loading-text-gradient: linear-gradient(
+  90deg,
+  transparent 0% 16.66%,
+  var(--smoky-black-3) 33.33% 50%,
+  transparent 66.66% 75%
+);
+--gradient-1: linear-gradient(
+  to top,
+  rgba(0, 0, 0, 0.9),
+  rgba(0, 0, 0, 0.7),
+  transparent
+);
 ```
 
 ## Typography
 
-``` css
---fontFamily-forum: 'Forum', cursive;
---fontFamily-dm_sans: 'DM Sans', sans-serif;
+```css
+--fontFamily-forum: "Forum", cursive;
+--fontFamily-dm_sans: "DM Sans", sans-serif;
 
 --fontSize-display-1: calc(1.3rem + 6.7vw);
 --fontSize-headline-1: calc(2rem + 2.5vw);
@@ -86,26 +105,26 @@ Ionicon
 
 ## Spacing
 
-``` css
+```css
 --section-space: 70px;
 ```
 
 ## Shadow
 
-``` css
---shadow-1: 0px 0px 25px 0px hsla(0, 0%, 0%, 0.25);
+```css
+--shadow-1: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
 ```
 
 ## Border Radius
 
-``` css
+```css
 --radius-24: 24px;
 --radius-circle: 50%;
 ```
 
 ## Transition
 
-``` css
+```css
 --transition-1: 250ms ease;
 --transition-2: 500ms ease;
 --transition-3: 1000ms ease;
