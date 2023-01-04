@@ -1,6 +1,6 @@
 ### Demo
 
-![Grilli Demo](https://opeyemi-grilli.netlify.app "Demo")
+https://opeyemi-grilli.netlify.app
 
 ### About
 
