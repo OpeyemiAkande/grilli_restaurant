@@ -9,4 +9,4 @@ This project was built using just HTML,CSS and Javascript. It employs a formal a
 
 ### Contact
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/thanksakande), [Email](opeyemiakande96@gmail.com).
+If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/thanksakande), [Email](mailto:opeyemiakande96@gmail.com).
